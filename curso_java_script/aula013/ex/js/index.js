@@ -2,13 +2,13 @@ const nome = prompt("Digite seu nome completo:");
 
 let resposta0 = nome.length;
 let resposta1 = nome[1];
-let resposta2 = nome[0];
-let resposta3 = nome[nome.length - 1];
-let resposta40 = nome[nome.length - 1];
-let resposta41 = nome[nome.length - 2];
-let resposta42 = nome[nome.length - 3];
-let resposta4 = resposta42 + resposta41 + resposta40;
-let resposta5 = nome;
+let resposta2 = nome.indexOf('a');
+let resposta3 = nome.lastIndexOf('a');
+let conta = nome[nome.length - 1];
+let continha = nome[nome.length - 2];
+let contona = nome[nome.length - 3];
+let resposta4 = contona + continha + conta;
+let resposta5 = nome.split(' ');
 let resposta6 = nome.toLocaleUpperCase();
 let resposta7 = nome.toLocaleLowerCase();
 

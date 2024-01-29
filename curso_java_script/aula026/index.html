@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://64.media.tumblr.com/57ad1408e3857aa878efa405b21c6cab/21c56944df272b66-44/s640x960/03ac64bcf476fe2e522a82fb3abd076352803fa1.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Tabela IMC</h1>
+      <h2>IMC</h2>
+      <p>Menos do que 18,15</p>
+      <p>Entre 18,15 e 24,9</p>
+      <p>Entre 25 e 29,9</p>
+      <p>Entre 30 e 34,9</p>
+      <p>Entre 35 e 39,9</p>
+      <p>Mais do que 40</p>
+      <h1>Calcule seu IMC</h1>
+      <p>Peso:</p>
+      <input type="number" id="weight" name="weight" required>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calcule seu IMC</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="shortcut icon" href="https://64.media.tumblr.com/57ad1408e3857aa878efa405b21c6cab/21c56944df272b66-44/s640x960/03ac64bcf476fe2e522a82fb3abd076352803fa1.jpg" type="image/x-icon">
-</head>
+    </section>
 
-<body>
-
-  <section class="container">
-    <h1>Calcule seu IMC</h1>
-    <form action="/" id="formulario" method="POST">
-      <label for="peso">Peso</label>
-      <input type="text" id="peso" name="peso">
-      <label for="altura">Altura</label>
-      <input type="text" id="altura" name="altura">
-      <button type="submit">Enviar</button>
-    </form>
-
-    <div id="resultado"></div>
-  </section>
-
-  <script src="./assets/js/main.js"></script>
-</body>
-
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ex011</title>
+        <link rel="shortcut icon" href="imagens/monitor.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Imagens dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamonho do seu navegador.
+        </p>
+        
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem flexivel">
+        </picture>
+
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a repoduzir áudios em HTML5</p>
+
+        <audio preload="metadata" autoplay controls loop >
+             <source src="videos-e-musicas/12_00 AM - Ramzoid.mp3" type="audio/mpeg">
+             <p>Infelizmente seu navegador não consegue reproduzur Áudio</p>
+             <a href="videos-e-musicas/12_00 AM - Ramzoid.mp3">Clique aqui para baixar o aquivo MP3"></audio></a>
+        </audio>
+        <br>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="videos-e-musicas/Young And Old Know Love - Puddle of Infinity.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador não consegue reproduzur Áudio</p>
+             <a href="videos-e-musicas/Young And Old Know Love - Puddle of Infinity.mp3">Clique aqui para baixar o aquivo MP3"></audio></a>
+        </audio>
+        
+    </body>
+    </html>

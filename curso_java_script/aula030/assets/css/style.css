@@ -1,0 +1,18 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../img/composicao-do-ano-novo-com-relogio-e-oculos.jpg'); /* Caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: #000000c0; /* Cor do texto */
+}

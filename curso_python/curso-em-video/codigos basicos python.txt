@@ -1,0 +1,12 @@
+int – armazena valores numéricos inteiros
+• float – armazena valores numéricos com ponto
+flutuante
+• complex – armazena valores numéricos complexos
+• bool – armazena valores lógicos (True ou False).
+O valor True pode ser representado por 1 e o False
+por 0 e, por isso, alguns autores consideram valores
+do tipo bool como sendo do tipo inteiro
+• str – armazena cadeias de caracteres
+• list – armazena conjuntos de elementos que podem ser acessados por meio de um índice
+• dic – armazena um conjunto de elementos que
+podem ser acessados por meio de uma chave.
